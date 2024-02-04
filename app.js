@@ -10,7 +10,7 @@ function randomNumber () {
         }else if(summa < random) {
             alert(`Ваше число меньше чем рандомное, число попыток${cocount}`)
         }else {
-            alert(`Вы не угадали, и проиграли:(`)
+            return alert(`Вы не угадали, и проиграли:(`)
         }
     }
 }
